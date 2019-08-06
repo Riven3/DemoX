@@ -1,0 +1,27 @@
+PODS:
+  - DemoX (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DemoX (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DemoX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DemoX: ca346e5dc60442f3f59bbfee5cf377db612fbb28
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 7c943045782affd0c16dc6cd6bc36a536506120e
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module DemoX {
+  umbrella header "DemoX-umbrella.h"
+
+  export *
+  module * { export * }
+}
