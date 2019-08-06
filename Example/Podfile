@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DemoX_Example' do
+  pod 'DemoX', :path => '../'
+
+  target 'DemoX_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
